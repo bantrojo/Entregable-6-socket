@@ -1,0 +1,17 @@
+.productcard{
+    width:200px;
+    height:250px;
+    border:1px solid black;
+    border-radius:5px;
+    background-color: white;
+}
+.productcard > img{
+    width:100%;
+    height:100px;
+    object-fit:cover;
+}
+.productContainer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
